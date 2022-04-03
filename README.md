@@ -38,5 +38,29 @@ veggiemonk.theme-solarized-light-fjs
 waderyan.gitblame
 ```
 
+### settings.json
+
+```json
+{
+  "files.autoSave": "afterDelay",
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Solarized-light-fjs",
+  "git.confirmSync": false,
+  "tabnine.experimentalAutoImports": true,
+  "editor.fontFamily": "'Cascadia Code', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true
+}
+```
+
+
+
+
+
 [*PS: other settings*](https://www.wolai.com/s1bpqfpsgzsGnUGQMKRxMF)
 
