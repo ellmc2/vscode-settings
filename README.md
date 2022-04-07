@@ -8,6 +8,7 @@ code --list-extensions
 ### extensions
 
 ```markdown
+alefragnani.Bookmarks
 alefragnani.project-manager
 AT-9420.console-helper
 bradgashler.htmltagwrap
@@ -33,9 +34,9 @@ rvest.vs-code-prettier-eslint
 shardulm94.trailing-spaces
 SirTori.indenticator
 streetsidesoftware.code-spell-checker
+TabNine.tabnine-vscode
 techer.open-in-browser
 veggiemonk.theme-solarized-light-fjs
-waderyan.gitblame
 ```
 
 ### settings.json
