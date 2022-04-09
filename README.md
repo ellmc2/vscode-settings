@@ -22,6 +22,7 @@ esbenp.prettier-vscode
 formulahendry.auto-close-tag
 formulahendry.auto-rename-tag
 formulahendry.code-runner
+GitHub.copilot
 Gruntfuggly.todo-tree
 IgorSbitnev.error-gutters
 jasonnutter.search-node-modules
