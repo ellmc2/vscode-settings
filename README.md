@@ -15,6 +15,7 @@ bradgashler.htmltagwrap
 cyberbiont.vscode-open-in-typora
 dbaeumer.vscode-eslint
 donjayamanne.githistory
+DotJoshJohnson.xml
 dsznajder.es7-react-js-snippets
 eamodio.gitlens
 EditorConfig.EditorConfig
@@ -26,9 +27,11 @@ GitHub.copilot
 Gruntfuggly.todo-tree
 IgorSbitnev.error-gutters
 jasonnutter.search-node-modules
+johnpapa.vscode-peacock
 kisstkondoros.vscode-gutter-preview
 MS-CEINTL.vscode-language-pack-zh-hans
 naumovs.color-highlight
+OBKoro1.korofileheader
 oderwat.indent-rainbow
 PKief.material-icon-theme
 rvest.vs-code-prettier-eslint
@@ -44,20 +47,26 @@ veggiemonk.theme-solarized-light-fjs
 
 ```json
 {
-  "files.autoSave": "afterDelay",
-  "[jsonc]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
+  "editor.inlineSuggest.enabled": true,
+  "editor.fontFamily": "'Cascadia Code', Menlo, Monaco, 'Courier New', monospace", // 编辑器字体
+  "editor.fontLigatures": true, // 编辑器字体启动连字
+  "files.autoSave": "afterDelay", // 自动保存
+  "git.confirmSync": false, // 当要同步Git远端存储库时，不需要再提问
+  "git.autofetch": true, // VS Code 自动去检测 Git 远端是否有发生新的更改
+  "tabnine.experimentalAutoImports": true, // tabnine插件自动导入
+  "workbench.colorTheme": "Solarized-light-fjs", // 工作台颜色主题
+  "workbench.iconTheme": "material-icon-theme", // 工作台文件图标主题
   "[javascript]": {
-    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+    "editor.defaultFormatter": "esbenp.prettier-vscode" // 指定vs code格式化js文件工具
   },
-  "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Solarized-light-fjs",
-  "git.confirmSync": false,
-  "tabnine.experimentalAutoImports": true,
-  "editor.fontFamily": "'Cascadia Code', Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontLigatures": true
+  "[jsonc]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint" // 指定vs code格式化jsonc文件工具
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode" // 指定vs code格式化ts文件工具
+  }
 }
+
 ```
 
 
