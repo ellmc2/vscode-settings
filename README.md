@@ -48,30 +48,36 @@ veggiemonk.theme-solarized-light-fjs
 ```json
 {
   "editor.inlineSuggest.enabled": true,
-  "editor.fontFamily": "'Cascadia Code', Menlo, Monaco, 'Courier New', monospace", // 编辑器字体
-  "editor.fontLigatures": true, // 编辑器字体启动连字
-  "files.autoSave": "afterDelay", // 自动保存
-  "git.confirmSync": false, // 当要同步Git远端存储库时，不需要再提问
-  "git.autofetch": true, // VS Code 自动去检测 Git 远端是否有发生新的更改
-  "tabnine.experimentalAutoImports": true, // tabnine插件自动导入
-  "workbench.colorTheme": "Solarized-light-fjs", // 工作台颜色主题
-  "workbench.iconTheme": "material-icon-theme", // 工作台文件图标主题
+  "fileheader.configObj": {
+    "autoAdd": false
+  },
+  "files.autoSave": "afterDelay",
+  "git.confirmSync": false,
+  "git.autofetch": true,
+  "tabnine.experimentalAutoImports": true,
+  "workbench.colorTheme": "Solarized-light-fjs",
+  "workbench.iconTheme": "material-icon-theme",
   "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode" // 指定vs code格式化js文件工具
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
   },
   "[jsonc]": {
-    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint" // 指定vs code格式化jsonc文件工具
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
   },
   "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode" // 指定vs code格式化ts文件工具
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
   }
 }
-
 ```
 
 
 
 
 
-[*PS: other settings*](https://www.wolai.com/s1bpqfpsgzsGnUGQMKRxMF)
+
 
