@@ -12,6 +12,7 @@ alefragnani.Bookmarks
 alefragnani.project-manager
 AT-9420.console-helper
 bradgashler.htmltagwrap
+CodeInChinese.EnglishChineseDictionary
 cyberbiont.vscode-open-in-typora
 dbaeumer.vscode-eslint
 donjayamanne.githistory
@@ -47,32 +48,86 @@ veggiemonk.theme-solarized-light-fjs
 
 ```json
 {
-  "editor.inlineSuggest.enabled": true,
-  "fileheader.configObj": {
-    "autoAdd": false
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "files.autoSave": "afterDelay",
-  "git.confirmSync": false,
-  "git.autofetch": true,
-  "tabnine.experimentalAutoImports": true,
-  "workbench.colorTheme": "Solarized-light-fjs",
-  "workbench.iconTheme": "material-icon-theme",
   "[javascript]": {
     "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
   },
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[json]": {
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Quiet Light",
+  "git.confirmSync": false,
+  "tabnine.experimentalAutoImports": true,
+  "editor.fontFamily": "'Cascadia Code', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "[typescript]": {
     "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
   },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.inlineSuggest.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "yaml": false,
+    "plaintext": false,
+    "markdown": false,
+    "javascript": false
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.autofetch": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
+  },
+  "fileheader.configObj": {
+    "autoAdd": false // 默认开启
+  },
+  "peacock.favoriteColors": [
+    {
+      "name": "Angular Red",
+      "value": "#dd0531"
+    },
+    {
+      "name": "Azure Blue",
+      "value": "#007fff"
+    },
+    {
+      "name": "JavaScript Yellow",
+      "value": "#f9e64f"
+    },
+    {
+      "name": "Mandalorian Blue",
+      "value": "#1857a4"
+    },
+    {
+      "name": "Node Green",
+      "value": "#215732"
+    },
+    {
+      "name": "React Blue",
+      "value": "#61dafb"
+    },
+    {
+      "name": "Something Different",
+      "value": "#832561"
+    },
+    {
+      "name": "Svelte Orange",
+      "value": "#ff3d00"
+    },
+    {
+      "name": "Vue Green",
+      "value": "#42b883"
+    }
+  ],
+  "workbench.startupEditor": "none",
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
   },
   "[markdown]": {
     "editor.defaultFormatter": "rvest.vs-code-prettier-eslint"
-  }
+  },
+  "gitlens.views.worktrees.files.layout": "tree",
+  "files.autoSave": "afterDelay"
 }
+
 ```
 
 
